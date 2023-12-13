@@ -1,14 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="#" type="image/x-icon">
-    <link rel="stylesheet" href="./css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Tarrique Daniel Santos" />
+    <link rel="shortcut icon" href="#" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/mode.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
     <title>Tarrique.dev</title>
-</head>
-<body>
-    
-</body>
-    <script src="js/script.js"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" id="cabecalho">
+      <div class="container-fluid">
+        <div id="nome">
+          <h1 class="navbar-brand" id="perfil" href="#">Tarrique</h1>
+          <h1 class="navbar-brand" id="pontoDev" href="#">.dev</h1>
+        </div>
+        <div id="tema">
+          <!-- <i class="bi bi-moon-fill" id="lua" style="color: #f7dc52"></i> -->
+          <!-- <label class="ui-switch">
+            <input type="checkbox">
+            <div class="slider">
+              <div class="circle"></div>
+            </div>
+          </label> -->
+          
+        </div>
+        <button
+          id="menu"
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <svg
+            id="iconMenu"
+            width="35"
+            height="35"
+            fill="#7f36e5"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M3.6 6a1.2 1.2 0 0 1 1.2-1.2h14.4a1.2 1.2 0 1 1 0 2.4H4.8A1.2 1.2 0 0 1 3.6 6Zm0 6a1.2 1.2 0 0 1 1.2-1.2h14.4a1.2 1.2 0 1 1 0 2.4H4.8A1.2 1.2 0 0 1 3.6 12Zm7.2 6a1.2 1.2 0 0 1 1.2-1.2h7.2a1.2 1.2 0 1 1 0 2.4H12a1.2 1.2 0 0 1-1.2-1.2Z"
+              clip-rule="evenodd"
+            ></path>
+          </svg>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a id="link" class="nav-link active" aria-current="page" href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a id="link" class="nav-link" href="#">Contato</a>
+            </li>
+            <li class="nav-item">
+              <a id="link" class="nav-link" href="#">Sobre mim</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                id="link"
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Projetos
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">CleanMap</a></li>
+                <li><a class="dropdown-item" href="#">Micuim-Mecânica</a></li>
+                <li><a class="dropdown-item" href="#">FlixHub</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Cardápio de padaria</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Aluguel de veículos</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main></main>
+    <aside></aside>
+    <footer></footer>
+  </body>
+  <script src="js/script.js"></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"
+  ></script>
 </html>

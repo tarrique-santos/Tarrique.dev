@@ -1,0 +1,50 @@
+:root { /*Variaveis do portfólio.*/
+  --cor-primaria: #181717;
+  --cor-secundaria: #7f36e5;
+  --cor-terciaria: #f7dc52;
+  --cor-quaternaria: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #181717 !important;
+  height: 100vh;
+}
+
+#menu,
+#menu::after {
+  border: none;
+  z-index: 1;
+}
+
+#nome {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#cabecalho{
+    border-bottom: 1.5px solid var(--cor-quaternaria);
+    display: flex;
+    justify-content: space-between !important;
+}
+
+#cabecalho , #link{
+    background-color: var(--cor-primaria) !important;
+    color: var(--cor-quaternaria);
+}
+
+#perfil {
+  font-weight: 650;
+  margin-right: -0.01rem;
+  color: var(--cor-quaternaria);
+}
+#pontoDev {
+  font-weight: 650;
+  color: var(--cor-secundaria);
+}
