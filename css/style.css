@@ -1,8 +1,14 @@
-:root { /*Variaveis do portfólio.*/
+/* :root { //Variaveis do portfólio.
   --cor-primaria: #181717;
   --cor-secundaria: #7f36e5;
   --cor-terciaria: #f7dc52;
   --cor-quaternaria: #ffffff;
+} */
+:root { 
+  --cor-primaria: #1f313f;
+  --cor-secundaria: #3894A3;
+  --cor-terciaria: #f7dc52;
+  --cor-quaternaria: #F1F1EF;
 }
 
 * {
@@ -12,7 +18,7 @@
 }
 
 body {
-  background-color: #181717 !important;
+  background-color: var(--cor-primaria) !important;
   height: 100vh;
 }
 
